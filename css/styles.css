@@ -1,0 +1,115 @@
+/**************************************** TAG SELECTORS ****************************************/
+body {
+    background-color:  hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+table {
+    padding: 0 25px;
+}
+td {
+    width: 100px;
+}
+
+hr {
+    margin: 25px 0 15px 0;
+    color:  hsl(0, 0%, 59%);
+}
+
+
+/**************************************** CLASS SELECTORS ****************************************/
+.card {
+    background-color: white;
+    height: 370px;
+    width: 350px;
+    margin: 12% auto;
+    border-radius: 1em;
+    z-index: 0;
+}
+
+.bg-pattern-card {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.profile-image {
+    position: relative;
+    bottom: 50px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.profile-text {
+    position: relative;
+    bottom: 50px;
+}
+
+.bg-pattern-top {
+    position: absolute;
+    width: 65%;
+    top: -65%;
+    left: -15%;
+    z-index: -1;
+}
+
+.bg-pattern-bottom {
+    position: absolute;
+    width: 65%;
+    bottom: -85%;
+    right: -15%;
+    z-index: -1;
+}
+
+.text-black {
+    color: black;
+    font-weight: 700;
+}
+
+.text-gray{
+    color:  hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 10px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 400;
+    width: 100%;
+}
+
+.attribution-txt {
+    color:hsl(229, 23%, 23%);
+}
+
+
+/**************************************** ID SELECTORS ****************************************/
+#profile-name {
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+#profile-address {
+    color: hsl(227, 10%, 46%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#profile-num {
+    color: hsl(227, 10%, 46%);
+    font-size: 18px;
+    font-weight: 400;
+}
